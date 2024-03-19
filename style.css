@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1EFE6;
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+}
+
+
+.app {
+    width: 100%;
+    gap: 12rem;
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15vw;
+}
+
+
+
+.texto {
+    font-family: "Inter";
+    font-weight: 900;
+    text-align: center;
+}
+
+.msg {
+    font-size: 7.5em;
+    font-style: normal;
+    margin: 0;
+}
+
+
+.nome {
+    font-size: 12.5em;
+    color: #162D47;
+    margin: 0;   
+}
+
+@media (max-width: 600px) {
+    .texto {
+        font-family: "Inter";
+        font-weight: 900;
+    }
+    .imagem {
+        width: 20rem;
+    }
+
+    .msg {
+        font-size: 2.4rem;
+    }
+
+    .nome {
+        font-size: 4.9rem;
+    }
+
+}
